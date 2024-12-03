@@ -12,7 +12,7 @@ public class day1 {
     private static ListPair readInput() {
         final ListPair input = new ListPair(new ArrayList<>(), new ArrayList<>());
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("data/input.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("data/input1.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\\s+");
