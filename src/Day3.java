@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class day3 {
+public class Day3 {
     public static void main(String[] args) {
         String input = read();
         System.out.println(solvePartOne(input));

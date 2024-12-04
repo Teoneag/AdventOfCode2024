@@ -3,11 +3,11 @@ import java.io.FileReader;
 import java.util.Arrays;
 import java.util.function.Function;
 
-public class day2 {
+public class Day2 {
 
     public static void main(String[] args) {
-        solve(day2::isSafePartOne);
-        solve(day2::isSafePartTwo);
+        solve(Day2::isSafePartOne);
+        solve(Day2::isSafePartTwo);
     }
 
     private static void solve(Function<int[], Boolean> isSafe) {

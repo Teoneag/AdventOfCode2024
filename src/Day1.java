@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class day1 {
+public class Day1 {
     record ListPair(List<Integer> a, List<Integer> b) {}
 
     private static ListPair readInput() {
